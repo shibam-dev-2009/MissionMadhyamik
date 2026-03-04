@@ -1,0 +1,13 @@
+.hero{
+    height: 100Vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    
+    
+}
+

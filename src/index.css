@@ -1,0 +1,35 @@
+:root {
+  
+  --color-1: #1d1c56;
+  --color-2: #66d1d1;
+  --color-3: #f0b92b;
+  --color-4: #01002b;
+  --main: #2E306D;
+}
+
+*{
+    font-family: "Outfit";
+    color: #fff;
+}
+body{
+    background-color: var(--main);
+}
+
+.btn{
+    background-color: var(--color-1);
+    border: 1px solid #fff;
+    padding: 10px 20px ;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: var(--main);
+    scale: 1.05;
+}
+a{
+    text-decoration: none;
+}

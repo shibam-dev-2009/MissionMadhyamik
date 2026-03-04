@@ -1,0 +1,43 @@
+.footer{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1d1c56cc;
+    padding: 0;
+    padding: 10px;
+    
+    margin: 0;
+    backdrop-filter: blur(10px);
+}
+.footer .social img{
+    height: 30px;
+    width: auto;
+}
+.greet img{
+    height: 20px;
+    width: auto;
+}
+.greet{
+    display: flex;
+    gap: 10px;
+}
+.footer .social{
+    margin: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+@media (max-width:900px) {
+    .footer{
+        flex-direction: column;
+        
+    }
+}

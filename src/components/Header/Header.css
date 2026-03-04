@@ -1,0 +1,11 @@
+.h{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    align-items: center;
+}
+.h p{
+    width: 80%;
+    text-align: center;
+}

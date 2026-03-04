@@ -1,0 +1,52 @@
+.archive {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.links {
+  display: flex;
+  gap: 20px;
+}
+.btn img {
+  height: 20px;
+  width: auto;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+@media (max-width: 900px) {
+  .links {
+    flex-direction: column;
+  }
+  .archive {
+    height: 180vh;
+    margin-top: 50px;
+  }
+  .videos {
+    margin-bottom: 50px;
+    height: 20%;
+  }
+}
+
+.videos {
+  height: 30%;
+  gap: 30px;
+  overflow-x: scroll;
+  width: 90%;
+  display: flex;
+}
+.heroimage{
+    height: 150px;
+    width: auto;
+}
